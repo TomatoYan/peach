@@ -8,7 +8,7 @@ menu:
 subnav:
   github: "https://github.com/xingguanxiaohai"
   weibo: "http://weibo.com/122101047"
-  #rss: "#"
+  rss: "/atom.xml"
   zhihu: "http://www.zhihu.com/people/qian-xiao-wu-hen"
   #qq: "#"
   #weixin: "#"
@@ -28,6 +28,7 @@ rss: /atom.xml
 # 是否需要修改 root 路径
 # 如果您的网站存放在子目录中，例如 http://yoursite.com/blog，
 # 请将您的 url 设为 http://yoursite.com/blog 并把 root 设为 /blog/。
+# 已经将项目的page服务 改为用户Pages
 root: 
 
 # Content
@@ -47,9 +48,9 @@ reward_type: 2
 # 打赏wording
 reward_wording: '谢谢您请我吃番茄'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
-alipay: /love/uploads/alipay-reward-image.png
+alipay: /assets/img/alipay.png
 # 微信二维码图片地址
-weixin: /love/uploads/wechat-reward-image.png
+weixin: /assets/img/wechat.png
 
 # 目录
 # 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录
@@ -65,10 +66,10 @@ top: true
 # Miscellaneous
 baidu_analytics: ''
 google_analytics: ''
-favicon: /favicon.ico
+favicon: /assets/img/favicon.ico
 
 #你的头像url
-avatar:
+avatar: /assets/img/head.png
 
 #是否开启分享
 share_jia: true
@@ -116,4 +117,4 @@ friends:
   小学生反弹: https://titanssword.github.io/
   时而宁靜: http://blog.csdn.net/ty_hf
 
-aboutme: 爱生活，爱妹纸，更爱编程。<br>胆小认生，不易相处，<br>年轻无为，卖码为生。<br>--- Tomato.Yan
+aboutme: 爱生活，爱妹纸，更爱编程。<br>   胆小认生，不易相处，<br>      年轻无为，卖码为生。<br><br>&nbsp;&nbsp;--- Tomato.Yan
