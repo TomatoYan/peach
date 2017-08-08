@@ -8,7 +8,7 @@ subtitle: 大抵浮生若梦，姑且此处销魂。
 description: 胆小认生，不易相处
 author: Tomato Yan
 email: 632068499@qq.com
-language: zh-CN
+language: zh-Hans
 timezone:
 
 # URL
@@ -51,7 +51,7 @@ highlight:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
+  per_page: 5
   order_by: -date
   
 # Category & Tag
@@ -109,3 +109,13 @@ jsonContent:
       excerpt: false
       categories: false
       tags: true
+
+# 豆瓣图书电影同步
+douban:
+  user: 48082253
+  book:
+    title: '我的阅读'
+    quote: '记录看书的点点滴滴、'
+  movie:
+    title: '我的电影'
+    quote: '一场电影一场梦~'

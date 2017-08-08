@@ -3,6 +3,8 @@
 menu:
   主页: /
   随笔: /tags/随笔/
+  读书: /books     #This is your books page
+  电影: /movies   #This is your movies page
 
 # SubNav
 subnav:
@@ -116,5 +118,8 @@ friends:
   一旦: http://blog.csdn.net/u013887254
   小学生反弹: https://titanssword.github.io/
   时而宁靜: http://blog.csdn.net/ty_hf
+  番茄: http://blog.csdn.net/i_am_tomato
+  汪小智: http://blog.csdn.net/wlzjiayou
+  剑神: http://blog.csdn.net/u012315428/
 
-aboutme: 爱生活，爱妹纸，更爱编程。<br><br>&nbsp;&nbsp;&nbsp;&nbsp;胆小认生，不易相处，<br>      年轻无为，卖码为生。<br>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   --- Tomato.Yan
+aboutme: 爱生活，爱妹纸，更爱编程。<br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;胆小认生，不易相处，<br>      年轻无为，卖码为生。<br>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   --- Tomato.Yan
