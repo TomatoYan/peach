@@ -8,6 +8,9 @@ date: 2017-08-09 18:02:17
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VisualVM(All-in-One Java Trouble Tool)是到目前为止随JDK发布功能最强大的运行监视和故障处理程序。而且VisualVM不需要被监视的程序基于特殊Agent运行，因此它对实际性能的影响很小，使得它可以直接应用在生产环境中。
 界面如下：
 ![界面1](http://img.blog.csdn.net/20170809183644088?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvaV9hbV90b21hdG8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
+<!-- more -->
+
 ![界面2](http://img.blog.csdn.net/20170809183710495?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvaV9hbV90b21hdG8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 ## VisualVM的功能
 VisualVM可以做到：
