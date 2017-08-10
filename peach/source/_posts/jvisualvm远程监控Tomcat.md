@@ -73,3 +73,19 @@ VisualVM可以做到：
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.1 添加远程主机 6.2 添加JMX连接 确定连接即可
 ![连接](http://img.blog.csdn.net/20170809183806389?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvaV9hbV90b21hdG8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
+## 补充：
+## 监控JVM中运行的Java程序
+前提：远程机器需要有Java环境
+
+1.在%JAVA_HOME%\bin目录下创建一个文件：jstatd.all.policy（名字可以变，扩展名不可以变），内容如下：
+
+	grant codebase "file:${java.home}/../lib/tools.jar" {
+       permission java.security.AllPermission;
+	};
+这个文件的作用是让jstatd服务能够读取机器上的java应用程序的运行数据。
+
+2.在%JAVA_HOME%\bin目录下，执行如下命令：
+
+jstatd -J-Djava.security.policy=jstatd.all.policy
+
+3.展开刚所新建的远程主机，就可看到运行在远程机器上的JAVA应用程序了
