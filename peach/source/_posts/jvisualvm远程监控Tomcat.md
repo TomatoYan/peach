@@ -23,7 +23,7 @@ VisualVM可以做到：
 
 ## VisualVM安装插件
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;由于墙的原因，所以需要采取些措施，才能顺利的下载安装插件。
-![插件](http://img.blog.csdn.net/20170809183752146?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvaV9hbV90b21hdG8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![插件](http://img.blog.csdn.net/20170810153927241?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvaV9hbV90b21hdG8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 ## jvisualvm远程监控Tomcat
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;进入我们的正题，利用jvisualvm远程监控Tomcat服务器。这里的Tomcat部署在远程Linux服务器上。
