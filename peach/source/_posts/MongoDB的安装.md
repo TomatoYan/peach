@@ -2,7 +2,7 @@
 title: MongoDB的安装
 abbrlink: 16902
 date: 2017-08-23 19:40:57
-tags:
+tags: MongoDB
 ---
 
 # mongodb Linux下的安装
