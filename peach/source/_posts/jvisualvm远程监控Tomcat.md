@@ -89,3 +89,8 @@ VisualVM可以做到：
 jstatd -J-Djava.security.policy=jstatd.all.policy
 
 3.展开刚所新建的远程主机，就可看到运行在远程机器上的JAVA应用程序了
+
+### 参考文献：
+[http://docs.oracle.com/javase/6/docs/technotes/tools/share/jstatd.html](http://docs.oracle.com/javase/6/docs/technotes/tools/share/jstatd.html "jstatd - Virtual Machine jstat Daemon")
+
+<!- end ->

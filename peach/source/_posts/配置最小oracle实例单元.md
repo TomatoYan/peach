@@ -37,6 +37,7 @@ Oracle开发的关系数据库产品因性能卓越而闻名，许多大型网�
 
 打开PLSQL Developer，选择Tools -> perference -> Connection，配置其中的Oracle Home和OCI Library项，如下图所示：
     
+![](https://ws1.sinaimg.cn/large/be936de3ly1ficcvx09ujj20iv0e5dh4.jpg)
 
 	其中, Oracle Home：E:\app\Administrator\product\instantclient_11_2
     	 OCI Library：E:\app\Administrator\product\instantclient_11_2\oci.dll
@@ -48,3 +49,5 @@ Oracle开发的关系数据库产品因性能卓越而闻名，许多大型网�
 	1>.选择"Path" - 点击"编辑", 把 "E:\app\Administrator\product\instantclient_11_2;" 加入;
 	2>.点击"新建", 变量名设置为"TNS_ADMIN", 变量值设置为"E:\app\Administrator\product\instantclient_11_2;", 点击"确定";
 	3>.点击"新建", 变量名设置为"NLS_LANG", 变量值设置为"SIMPLIFIED CHINESE_CHINA.ZHS16GBK", 点击"确定";字符编码变量配置，防止有乱码
+
+<!- end ->

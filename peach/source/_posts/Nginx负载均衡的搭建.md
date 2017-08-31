@@ -144,6 +144,8 @@ Windows下退出直接在任务管理器停止进程即可
 注释掉即可。
 
 ### Nginx日志关闭 ###
-开发环境我默认不写日志，即不配置任何access_log
-Nginx的http段中，设置access log：access_log off;
-其他日志可以百度查找相关方法
+	开发环境我默认不写日志，即不配置任何access_log
+	Nginx的http段中，设置access log：access_log off;
+	其他日志可以百度查找相关方法
+
+<!- end ->

@@ -2,7 +2,7 @@
 title: MongoDB的安装
 abbrlink: 16902
 date: 2017-08-23 19:40:57
-tags: MongoDB
+tags: mongoDB
 ---
 
 # mongodb Linux下的安装
@@ -95,3 +95,5 @@ touch /data/log/mongodb.log
 
     然后打开新的窗口输入  .\mongo.exe即可进入mongodb服务器
 ![这里写图片描述](http://img.blog.csdn.net/20170827185825745?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvaV9hbV90b21hdG8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
+<!- end ->
